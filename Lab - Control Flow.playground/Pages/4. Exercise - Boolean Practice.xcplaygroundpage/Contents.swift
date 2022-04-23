@@ -14,3 +14,26 @@
  */
 
 //: [Previous](@previous)  |  page 4 of 9  |  [Next: App Exercise - Target Heart Rate](@next)
+
+// Boolean operators  - || or
+ && and
+var hasFish: Bool = true
+var hasPizza: Bool = false
+var hasVegan: Bool = true
+if (hasFish || hasPizza) && hasVegan {
+
+    print("Let's go!")
+
+}else 
+    print("Sorry, we'll have to think of somewhere else.")
+}
+
+
+let temp = 82
+let isRaining = true
+let isSunny = true
+
+let isNiceWeather = !isRaining | | (temp >= 82 && isSunny)
+
+if isNiceWeather (
+print ("I'm going for a walk!")
