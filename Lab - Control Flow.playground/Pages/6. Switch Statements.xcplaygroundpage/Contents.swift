@@ -9,3 +9,25 @@
  */
 
 //: [Previous](@previous)  |  page 6 of 9  |  [Next: App Exercise - Heart Rate Zones](@next)
+
+/// case () <- value of the thing
+
+let leaguePosition = 1
+
+switch leaguePosition {
+case 1:
+ print("Champions!")
+case 2:
+ print("Runner ups")
+case 3:
+ print("Third Place")
+default:
+ print("Bad season")
+}
+
+switch leaguePosition {
+case 1...3:
+ print("Medal Winner!")
+default:
+ print("No Medal Awarded")
+}
